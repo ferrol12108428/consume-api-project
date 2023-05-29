@@ -128,7 +128,7 @@ class EskulController extends Controller
             $errors = $proses->json('data');
             return redirect()->back()->with(['errors' => $errors]);
         } else {
-            return redirect()->back()->with(['success', 'Berhasil menghapus data secara permanen!']);
+            return redirect()->back()->with('success', 'Berhasil menghapus data secara permanen!');
         }
     }
 
@@ -139,7 +139,7 @@ class EskulController extends Controller
             $errors = $proses->json('data');
             return redirect()->back()->with(['errors'  => $errors]);
         } else {
-            return redirect()->back()->with(['success', 'Berhasil mengembalikan data dari sampah']);
+            return redirect()->back()->with('success', 'Berhasil mengembalikan data dari sampah');
         }
     }
 }
