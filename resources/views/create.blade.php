@@ -25,7 +25,7 @@
         </div>
         <div style="display: flex; margin-bottom: 15px">
             <label for="Hari">Rombel</label>
-            <select name="Hari" id="Hari">
+            <select name="hari" id="hari">
                 <option selected hidden disabled>Select your days</option>
                 <option value="Senin">Senin</option>
                 <option value="Selasa">Selasa </option>
@@ -36,8 +36,8 @@
             </select>
         </div>
         <div style="display: flex; margin-bottom: 15px">
-            <label for="rayon">Rayon</label>
-            <input type="text" name="rayon" id="rayon" placeholder="Contoh: cic 3">
+            <label for="tanggal">Rayon</label>
+            <input type="date" name="tanggal" id="tanggal">
         </div>
         <button type="submit">Kirim</button>
     </form>
